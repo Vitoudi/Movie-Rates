@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Mad Max: Fury Road",
+        "info": "With exhilarating action and a surprising amount of narrative heft, Mad Max: Fury Road brings George Millers post-apocalyptic franchise roaring vigorously back to life.",
+        "img": "https://resizing.flixster.com/QjeBkzpqqCHcl9sk0kz_1a1Hu-M=/206x305/v2/https://flxt.tmsimg.com/NowShowing/140378/140378_ab.jpg",
+        "banner": "https://sm.ign.com/t/ign_pt/screenshot/default/mad-max-fury-road-4k-590_1gyg.h720.jpg",
+        "imdb": "8.1",
+        "categories": ["action", "heavy"]
+    },
+    {
+        "name": "Gravity",
+        "info": "Alfonso Cuaróns Gravity is an eerie, tense sci-fi thriller thats masterfully directed and visually stunning.",
+        "img": "https://resizing.flixster.com/1t47FjWwhWSYXacxWDnpPojNrQ4=/206x305/v2/https://flxt.tmsimg.com/assets/p9248657_p_v10_ak.jpg",
+        "imdb": "7.7",
+        "categories": ["drama", "space", "suspense"]
+    },
+    {
+        "name": "The Dark Knight",
+        "info": "Dark, complex, and unforgettable, The Dark Knight succeeds not just as an entertaining comic book film, but as a richly thrilling crime saga.",
+        "img": "https://resizing.flixster.com/l_yp_jJl0uhaly5u8cK-1zklk6o=/206x305/v2/https://flxt.tmsimg.com/NowShowing/63045/63045_aa.jpg",
+        "banner": "https://townsquare.media/site/442/files/2016/03/Christian-Bale-The-Dark-Knight.jpg",
+        "imdb": "9.0",
+        "categories": ["action", "heavy", "suspense", "superhero"]
+    },
+    {
+        "name": "The Lord of the Rings: The Two Towers",
+        "info": "The Two Towers balances spectacular action with emotional storytelling, leaving audiences both wholly satisfied and eager for the final chapter.",
+        "img": "https://resizing.flixster.com/auMZhI2AbHd_DxinSJHETrNiUrg=/206x305/v2/https://flxt.tmsimg.com/NowShowing/28574/28574_ab.jpg",
+        "imdb": "8.1",
+        "categories": ["action", "adventure", "epic"]
+    },
+    {
+        "name": "Parasite",
+        "info": "An urgent, brilliantly layered look at timely social themes, Parasite finds writer-director Bong Joon Ho in near-total command of his craft.",
+        "img": "https://resizing.flixster.com/enYPx96luLq0FWTdEpiWqX6rxMk=/206x305/v2/https://resizing.flixster.com/OCnoNZ2b2Z_Bpa0RX35IwYN1lLQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzZlZWEwMmY4LTk1OWUtNGEyOS04ODRmLTA0OWRjMzhlYWZkNi53ZWJw",
+        "banner": "https://seenthemagazine.com/wp-content/uploads/Parasite.jpg",
+        "imdb": "8.6",
+        "categories": ["drama", "suspense"]
+    },
+    {
+        "name": "Lady Bird",
+        "info": "Lady Bird delivers fresh insights about the turmoil of adolescence -- and reveals writer-director Greta Gerwig as a fully formed filmmaking talent.",
+        "img": "https://resizing.flixster.com/CmD0J-DN-uBKKJeMbhz6po38fso=/206x305/v2/https://resizing.flixster.com/1f9bH_99aSYNgLROtrUDzyuN8ek=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzI4MjU0NjdiLTMwYTQtNDVmNy1hYjdjLWYwNTk5NTc0MGQ3MC53ZWJw",
+        "imdb": "7.4",
+        "categories": ["drama", "suspense"]
+    },
+    {
+        "name": "1917",
+        "info": "Hard-hitting, immersive, and an impressive technical achievement, 1917 captures the trench warfare of World War I with raw, startling immediacy.",
+        "img": "https://resizing.flixster.com/3g3CwJrENzSzBkzf1rreXbwOkf8=/fit-in/200x296.2962962962963/v1.bTsxMzIwMzIxOTtqOzE4NjQ3OzEyMDA7Mjc2NTs0MDk2",
+        "imdb": "8.3",
+        "categories": ["drama", "suspense", "action", "adventure", "war"]
+    },
+    {
+        "name": "Avengers: Endgame",
+        "info": "Exciting, entertaining, and emotionally impactful, Avengers: Endgame does whatever it takes to deliver a satisfying finale to Marvel's epic Infinity Saga.",
+        "img": "https://resizing.flixster.com/iUR24orgDGPGmizguKh0AFQkZuc=/fit-in/200x296.2962962962963/v1.bTsxMzAxOTkzMjtqOzE4NjAwOzEyMDA7MTY4ODsyNTAw",
+        "imdb": "8.4",
+        "banner": "https://i.pinimg.com/originals/6a/44/e6/6a44e6fb6ba76d6af17a695564926673.jpg",
+        "categories": ["action", "adventure", "war", "superhero"]
+    },
+    {
+        "name": "Hamilton",
+        "info": "Look around, look around at how beautifully Hamilton shines beyond Broadway - and at how marvelously Thomas Kail captures the stage show's infectious energy.",
+        "img": "https://resizing.flixster.com/rcqtoRKgfSgXmTDHlO-dHoww1tw=/206x305/v2/https://resizing.flixster.com/xIuinui_7b_kLbzAaRkY8WgKPrk=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzBkZGQyODI0LTY4MDYtNDM4MC1iYWFlLTdkMzQwYzc5MzVlMi53ZWJw",
+        "imdb": "8.6",
+        "categories": ["music", "drama"]
+    }
+]

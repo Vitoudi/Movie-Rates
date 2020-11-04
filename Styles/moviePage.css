@@ -1,0 +1,49 @@
+body {
+    align-content: start;
+} 
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    align-content: start;
+}
+
+.movie-start {
+    display: flex;
+}
+
+.movie-start img {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.imdb-space {
+    margin-top: 10px;
+    display: flex;
+}
+
+.imdb-space img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.info-container {
+    margin: 20px 0;
+}
+
+.info-container p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    .movie-start img {
+        width: 10%;
+        margin-right: 10px;
+    }
+}

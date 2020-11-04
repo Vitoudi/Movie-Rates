@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/movie.css">
+    <link rel="stylesheet" href="../Styles/moviePage.css">
+</head>
+<body>
+    <section class="menu">
+        <img class="menu-icon" src="https://cdn.iconscout.com/icon/free/png-512/menu-bar-lines-option-list-hamburger-web-5-3177.png" alt="menu icon">
+        <div class="main-menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="../Views/index.html">Home</a></li>
+                <li><a href="../Views/categories.html">Categories</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        
+    </section>
+    <header>
+        <section class="main-header">
+            <img class="menu-icon" src="https://cdn.iconscout.com/icon/free/png-512/menu-bar-lines-option-list-hamburger-web-5-3177.png" alt="menu icon">
+            <a href="../Views/index.html"><h1>Cine <span>Flix</span></h1></a>
+            <img class="search-icon" src="https://image.flaticon.com/icons/png/512/64/64673.png" alt="">
+            <input type="text" name="" id="">
+        </section>
+        <nav>
+            <form name="navForm" action="categories.html"></form>
+            <p><a href="../Views/index.html">Home</a></p>
+            <p><a href="../Views/index.html#movies">Movies</a></p>
+            <p><a href="../Views/categories.html">Categories</a></p>
+        </nav>
+    </header>
+
+    <main>
+        <div class="movie-start">
+            <img id="movie-img" src="" alt="">
+            <div class="name-grade">
+                <h2 id="title"></h2>
+                <div class="imdb-space">
+                    <img id="imdb-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="">
+                    <h3 id="imdb-grade"></h3>
+                </div>
+                
+            </div> 
+        </div>
+        <div class="info-container">
+            <h2>Info:</h2>
+            <p id="info"></p>
+        </div>
+    </main>
+
+    <footer>
+        Cine Flix <span id="year">data</span> &copy
+    </footer>
+    
+    <script src="../Scripts/crossFunctions.js"></script>
+    <script src="../Scripts/interactions.js"></script>
+    <script src="../Scripts/moviePage.js"></script>
+</body>
+</html>

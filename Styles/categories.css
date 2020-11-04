@@ -1,0 +1,38 @@
+main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.title {
+    margin: 20px 0 10px 20px;
+}
+
+.category-container {
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 220px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    margin: 15px 0;
+}
+
+@media only screen and (min-width: 800px) {
+    main {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .category-container {
+        display: grid;
+        align-content: center;
+        min-width: 250px;
+        height: 200px;
+        text-align: center;
+        background-color: rgb(230, 230, 230);
+        margin: 10px 20px;
+    }
+}

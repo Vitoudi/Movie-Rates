@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: unset;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    align-content: start;
+}
+
+.menu {
+    z-index: 13;
+    display: grid;
+    align-content: start;
+    margin-left: -300px;
+    color: white;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: rgb(199, 199, 199);
+    box-shadow: 4px 4px 9px 5px rgba(0, 0, 0, 0.123);
+
+    transition: .5s;
+}
+
+.main-menu {
+    justify-self: center;
+}
+
+.main-menu h2 {
+    font-size: 30px;
+}
+
+.main-menu li {
+    list-style: none;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+header {
+    display: grid;
+    align-content: center;
+    background-color: rgb(228, 228, 228);
+    height: fit-content;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-weight: 850;
+    letter-spacing: 4px;
+}
+
+header span {
+    color: rgb(53, 91, 161);
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+input {
+    display: none;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.041);
+}
+
+.menu-icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.search-icon {
+    margin-right: 10px;
+    width: 25px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+header nav {
+    align-self: baseline;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+}
+
+header nav p {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(197, 197, 197);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    overflow: hidden;
+}
+
+.slider, .dark-background, .slider img, .movie-banner-container{
+    width: 100%;
+}
+
+.slider {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    transform: translateX(0)
+}
+
+.movie-banner-container p {
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-85px);
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 2px 3px black;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.controler {
+    margin: 15px 10px 0 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.active {
+    width: 11px;
+    height: 11px;
+    background-color: rgb(165, 165, 165);
+}
+
+
+.movie-container {
+    margin: 30px 10px;
+    display: flex;
+}
+
+.movie-container img {
+    height: 205px;
+    width: 137.666px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.movie-container h2 {
+    color: rgb(38, 64, 114);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.movie-container p {
+    max-width: 85%;
+}
+
+.movies {
+    padding: 10px;
+}
+
+.section-title {
+    margin: 10px 10px;
+}
+
+.info-area {
+    max-width: 60%;
+}
+
+#errorMsg {
+    margin: 15px 0 30px 0;
+    color: rgb(201, 85, 50);
+}
+
+
+
+
+
+
+.grid {
+    display: grid;
+    margin: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+footer {
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+    header {
+        display: flex;
+        align-content: center;
+        background-color: rgb(228, 228, 228);
+        height: fit-content;
+    }
+    
+    header h1 {
+        text-transform: uppercase;
+        font-weight: 850;
+        letter-spacing: 4px;
+    }
+    
+    header span {
+        color: rgb(53, 91, 161);
+    }
+    
+    .main-header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    input {
+        display: inline;
+        border-radius: 10px;
+        padding: 5px;
+        border: none;
+        box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.041);
+    }
+    
+    .menu-icon {
+        width: 40px;
+        cursor: pointer;
+    }
+    
+    .search-icon {
+        margin-right: 10px;
+        width: 25px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    header nav {
+        align-self: center;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        background-color: unset;
+        width: fit-content;
+    }
+    
+    header nav p {
+        margin: 10px;
+        background-color: rgb(246, 246, 246);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        border: none;
+        box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.089);
+        width: 90px;
+        height: 100%;
+    }
+
+
+
+
+
+
+    main {
+        overflow: hidden;
+    }
+    
+    .slider, .dark-background, .slider img, .movie-banner-container{
+        width: 100%;
+    }
+    
+    .slider {
+        background-color: rgb(216, 216, 216);
+        display: flex;
+        height: 400px;
+        transform: translateX(0)
+    }
+    
+    .slider img {
+        object-fit: cover;
+        object-position: 0 -60px;
+        height: 400px;
+    }
+
+    .movie-banner-container p {
+        padding: 15px;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-85px);
+    
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        text-shadow: 1px 2px 3px black;
+    }
+
+
+    #movies {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .movie-container {
+        margin: 30px 10px;
+    }
+
+    .movie-container img {
+        height: 205px;
+        width: 137.666px; 
+        margin-right: 10px;
+    }
+
+    .movie-container h2 {
+        color: rgb(38, 64, 114);
+        margin-bottom: 10px;
+    }
+
+    .movie-container p {
+        max-width: 70%;
+    }
+
+    .movies {
+        padding: 10px;
+    }
+
+    .section-title {
+        margin: 10px 10px;
+    }
+
+    .info-area {
+        max-width: 230px;
+    }
+
+
+    .hidden {
+        display: none;
+    }
+}
